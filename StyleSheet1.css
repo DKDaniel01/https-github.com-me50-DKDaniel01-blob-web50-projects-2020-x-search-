@@ -1,0 +1,65 @@
+﻿body {background-color:#202124;
+
+    
+}
+
+
+
+.link{
+    display:block;
+    float:right;
+    padding:5px;
+    text-decoration-line:none;
+    color:white
+   
+}
+
+.search {
+    position: fixed;
+    top: 40%;
+    left: 38%;
+    border: 1px solid;
+    width: 229px;
+    height: 20px;
+    border-radius: 25px;
+    border-color: #5f6368
+}
+
+.text {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white
+}    
+
+.button_main{
+    position:fixed;
+    top:45%;
+    left:38.5%;
+    
+    }
+
+.button_search{
+    border-radius:25px
+}
+
+
+
+.advanced_form_inputs{
+    display:grid;
+    grid-template-columns:200px 120px;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    color:white
+
+}
+
+.advanced_button{
+    grid-area:5/2;
+    background-color:blue;
+    color:white;
+    border-radius:25px
+}
